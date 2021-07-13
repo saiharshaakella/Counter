@@ -9,7 +9,7 @@ const App = ()=>{
     return(
         <div>
             <h1 style={{textAlign : "center"}}> Hey!! This is my Counter Application </h1>
-            <h3>The Value of score is {score} </h3>
+            <h1>The Value of score is {score} </h1>
             <button onClick={()=>{(score ===25) ? setScore(25) :setScore(score+1)}}> Increment </button>
             <button onClick={()=>(score>0)? setScore(score-1) : "" }> Decrement </button>
             <button onClick={()=>{setScore(0)}}> Reset </button>
